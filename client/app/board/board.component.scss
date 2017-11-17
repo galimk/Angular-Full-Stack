@@ -1,0 +1,41 @@
+.board-container {
+  padding-top:45px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  color: #696969;
+}
+
+
+.flex-grid-thirds {
+  display: flex;
+}
+.flex-grid-thirds .col {
+  width: 25%;
+}
+
+.col {
+  padding: 20px;
+}
+
+
+.tags {
+
+ background: #F1ECFF;
+}
+
+.todo {
+  background: #FFECEC;
+}
+
+.in-progress {
+  background: #DBF0F7;
+}
+
+.done {
+  background: #EAFFEF;
+}
+

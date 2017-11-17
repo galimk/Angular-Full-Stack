@@ -19,6 +19,7 @@ export class CatsComponent implements OnInit {
   addCatForm: FormGroup;
   name = new FormControl('', Validators.required);
   age = new FormControl('', Validators.required);
+
   weight = new FormControl('', Validators.required);
 
   constructor(private catService: CatService,
